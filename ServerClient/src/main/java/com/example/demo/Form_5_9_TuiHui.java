@@ -31,7 +31,7 @@ public class Form_5_9_TuiHui  {
 
 		try {
 			SimpleMailMessage message = new SimpleMailMessage();
-			message.setSubject("这是一封测试邮件");
+			message.setSubject("这是一封测试邮件");//ffs
 			message.setFrom("m18703889961@163.com"); //发送邮件的人
 			message.setTo("2641822201@qq.com"); //接受邮件的人
 			message.setSentDate(new Date ());
